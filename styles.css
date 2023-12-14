@@ -1,0 +1,118 @@
+@font-face {
+    font-family: "OCR-B";
+    src: url(https://cdn.jsdelivr.net/gh/raisty/OCR-B/dist/OCR-B.ttf) format("truetype"),
+         url(https://cdn.jsdelivr.net/gh/raisty/OCR-B/dist/OCR-B.otf) format("opentype");
+  }
+
+@font-face {
+    font-family: Passageway;
+    src: url('https://fonts.cdnfonts.com/css/passageway');
+}
+
+  
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins, system-ui;
+    margin: 0;
+    color: white;
+}
+
+.card-container {
+    position: relative;
+    width: 350px;
+    height: 220px;
+    background-color: rgb(129, 128, 128);
+    border-radius: 9px;
+    box-shadow: 5px 5px 10px rgba(0 0 0 / 25%);
+}
+
+header img {
+    width: 60px;
+}
+
+header .chip {
+    width: 60px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.chip-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.contactless {
+    width: 40px;
+    margin-right: 28px;
+}
+
+.chip {
+    margin-left: 30px;
+}
+
+.number-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 0;
+}
+
+.visa-logo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.visa-type {
+    margin-right: 32px;
+    margin-top: -8px;
+    font-weight: 300;
+}
+
+.visa-logo {
+    width: 80px;
+    margin-right: 20px;
+    margin-top: 20px;
+    z-index: 2;
+}
+
+.td-logo {
+    margin-left: 30px;
+    margin-top:  10px;
+}
+
+.card-font {
+    font-family: OCR-B;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: white;
+}
+
+.cardholder-font {
+    font-family: Passageway, system-ui;
+    margin-bottom: 30px;
+}
+
+.card-type {
+    margin-right: 25px;
+    font-size: 1.1rem;
+    letter-spacing: -1px;
+}
